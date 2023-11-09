@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+section {
+    padding: 20px;
+    text-align: center;
+}
+.about {
+    background-color: #333;
+    color: #fff;
+    padding-left: 90px;
+    word-spacing: 15px;
+}
+.text-container {
+    display: flex;
+    justify-content: space-between;
+}
+.left-text, .right-text {
+    flex-basis: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+nav ul {
+    list-style: none;
+    word-spacing: 15px;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    text-decoration: none;
+    word-spacing: 1px;
+    color: #fff;
+}
+#contact {
+    background-color: #ccc;
+    text-align: left;
+    line-height: 1.5;
+}
+.project1 {
+    text-decoration: none;
+    color: #000;
+}
+.university {
+    text-decoration: none;
+    color: #000;
+}
+.insta {
+    text-decoration: none;
+    color: #000;
+}
+.email {
+    text-decoration: none;
+    color: #000;
+}
+.translucent-bg { 
+    padding: 20px;
+}
+img {
+    margin-right: 20px;
+    max-width: 100%;
+    height: auto;
+}
+h1  {
+    font-size: 30px;
+}
+p {
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .text-container {
+    	display: none;
+    }
+    h1  {
+	text-align: left;
+    }
+    img {
+	display: none;
+    }
+}
+
