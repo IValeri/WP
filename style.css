@@ -13,6 +13,9 @@ section {
     padding-left: 90px;
     word-spacing: 15px;
 }
+.my-paragraph {
+word-spacing: 5px;
+}
 .text-container {
     display: flex;
     justify-content: space-between;
@@ -71,14 +74,23 @@ p {
 }
 
 @media (max-width: 768px) {
+    .name {
+	text-align: center;
+	margin-right: 50px; 
+}
+    .my-paragraph {
+	text-align: center;
+	margin-right: 50px; 
+}
     .text-container {
     	display: none;
-    }
+}
     h1  {
 	text-align: left;
-    }
+}
     img {
-	display: none;
-    }
+	max-width: 50%;
+    	height: auto;
+	flex-direction: column;
 }
 
